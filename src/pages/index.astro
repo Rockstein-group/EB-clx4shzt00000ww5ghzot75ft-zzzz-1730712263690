@@ -1,0 +1,27 @@
+---
+import Seo from "../components/Seo.astro";
+
+import '../styles/global.css';
+---
+
+<html lang="en">
+	<head>
+		<Seo seo={{ title: "EcoBuilder", description: "Page description", keywords: "", canonical: "", image: '', type: "website", themeColor: "#ffffff"}} />
+		<meta charset="utf-8" />
+		<link
+			rel="icon"
+			type="image/svg+xml"
+			href="/favicon.svg"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width"
+		/>
+		<meta
+			name="generator"
+			content={Astro.generator}
+		/>
+		<title>Astro</title>
+	</head>
+	<body> <header class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Header&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] header-section"></header><main class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Main&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] main-section"><section class="main-component flex flex-col overflow-hidden bg-slate-800 text-white"><div class="max-md:px-5 max-md:max-w-full px-4 py-10 sm:px-6 lg:px-8"><div class="mx-auto max-w-screen-2xl"><div class="flex flex-col justify-center w-full"><div class="lg:text-[54px] leading-snug font-semibold text-center text-white text-4xl">Une info, une démo ? Contactez-nous !</div><div class="mt-14 text-2xl leading-5 text-center text-white max-md:mt-10 max-md:max-w-full">Veuillez compléter tous les champs.</div></div><form as="form" formValues="[object Object]"><div class="max-md:mt-10 mx-auto mt-14 flex w-full max-w-full flex-col justify-center self-center lg:max-w-screen-lg"><div class="max-md:max-w-full flex w-full flex-wrap items-start justify-center gap-6"><div class="mt-6 flex min-w-[240px] flex-1 shrink basis-0 flex-col"><label class="text-xl font-medium leading-none text-white">Prénom</label><input name="firstName" placeholder="Entrez votre prénom" autoComplete="given-name" class="mt-2 w-full flex-1 shrink gap-2 overflow-hidden rounded-md border border-solid border-zinc-300 bg-slate-700 px-4 py-3 text-base text-neutral-400"/></div><div class="mt-6 flex min-w-[240px] flex-1 shrink basis-0 flex-col"><label class="text-xl font-medium leading-none text-white">Nom</label><input name="lastName" placeholder="Entrez votre nom" autoComplete="family-name" class="mt-2 w-full flex-1 shrink gap-2 overflow-hidden rounded-md border border-solid border-zinc-300 bg-slate-700 px-4 py-3 text-base text-neutral-400"/></div></div><div class="mt-6 flex min-w-[240px] flex-1 shrink basis-0 flex-col"><label class="text-xl font-medium leading-none text-white">Adresse e-mail</label><input name="email" placeholder="Entrez votre adresse e-mail" autoComplete="email" class="mt-2 w-full flex-1 shrink gap-2 overflow-hidden rounded-md border border-solid border-zinc-300 bg-slate-700 px-4 py-3 text-base text-neutral-400"/></div><div class="mt-6 flex min-w-[240px] flex-1 shrink basis-0 flex-col"><label class="text-xl font-medium leading-none text-white">Société</label><input name="company" placeholder="Entrez votre société" autoComplete="organization" class="mt-2 w-full flex-1 shrink gap-2 overflow-hidden rounded-md border border-solid border-zinc-300 bg-slate-700 px-4 py-3 text-base text-neutral-400"/></div><div class="max-md:max-w-full mt-6 flex w-full flex-col"><label class="text-xl font-medium leading-none text-white">Message</label><textarea placeholder="Entrez votre message" rows="5" name="message" class="mt-2 min-h-[144px] w-full flex-1 shrink gap-2 overflow-hidden rounded-md border border-solid border-zinc-300 bg-slate-700 px-4 pb-28 pt-3 text-base text-neutral-400"></textarea></div><div class="max-md:max-w-full mt-6 flex w-full flex-wrap items-center gap-1.5 text-sm leading-none text-zinc-400"><div class="my-auto flex items-center gap-2 self-stretch"><input type="checkbox" name="privacyCheckbox"/><label for="privacyCheckbox" class="leading-snug lg:leading-none">En cochant cette case, j’accepte la politique de confidentialité</label></div></div><div class="pb-16 text-center"><button type="button" class="max-md:mt-10 max-md:px-5 mt-12 inline-flex min-h-[50px] w-[90%] flex-col items-center justify-center gap-2.5 overflow-hidden rounded-md bg-lime-500 px-12 py-2.5 text-[14px] font-semibold leading-snug text-gray-900 transition-all md:w-auto md:min-w-[400px] md:text-base lg:text-xl">Envoyer</button></div></div></form></div></div></section></main><footer class="flex flex-col relative shrink-0 box-border h-auto empty:min-h-[30vh] before:content-[&#x27;Footer&#x27;] before:absolute before:top-0 before:left-0 before:inline-block before:py-1 before:px-2 before:bg-black/20 before:text-white before:text-sm before:rounded before:!rounded-tl-none before:!rounded-bl-none mb-[1px] footer-section"></footer> </body>
+</html>
